@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Propolize — Hands-free hive inspection log</title>
+<meta name="description" content="Log hive inspections by voice, with gloves on. Per-hive timelines, varroa treatment history, works offline. Early access open.">
+<style>
+:root{--ink:#1b1a17;--muted:#6b675e;--honey:#e8a33d;--cream:#fdfcf7;--line:#e6e1d5;--card:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5}
+.wrap{max-width:460px;margin:0 auto;padding:0 24px}
+section{padding:52px 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0;padding-top:40px}
+.eyebrow{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#a8802c;background:#fbf0d9;border-radius:99px;padding:6px 11px;margin-bottom:22px}
+h1{font-size:36px;line-height:1.12;letter-spacing:-.02em;font-weight:800;margin-bottom:18px}
+h2{font-size:23px;line-height:1.25;letter-spacing:-.01em;font-weight:750;margin-bottom:16px}
+p.lead{font-size:17px;color:var(--muted);margin-bottom:26px}
+.cta{display:block;width:100%;text-align:center;background:var(--honey);color:#241a08;font-weight:700;font-size:17px;padding:17px;border-radius:14px;text-decoration:none}
+.micro{font-size:12.5px;color:#8d8a80;text-align:center;margin-top:12px}
+.pain{list-style:none}
+.pain li{position:relative;padding-left:20px;margin-bottom:12px;font-size:16.5px;color:#33302a}
+.pain li:before{content:"";position:absolute;left:0;top:11px;width:8px;height:1.5px;background:#c9a25b}
+.steps{display:grid;gap:24px}
+.step{display:grid;grid-template-columns:34px 1fr;gap:14px;align-items:start}
+.num{width:34px;height:34px;border-radius:50%;background:#fbf0d9;color:#8a6a1f;font-weight:800;font-size:14px;display:grid;place-items:center}
+.step h3{font-size:17px;font-weight:750;margin-bottom:5px}
+.step p{font-size:15.5px;color:var(--muted)}
+.feat{margin-bottom:22px}
+.feat h3{font-size:16.5px;font-weight:750;margin-bottom:5px}
+.feat p{font-size:15px;color:var(--muted)}
+.prices{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card.best{border:1.5px solid var(--honey)}
+.card .tier{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:#8d8a80;margin-bottom:8px}
+.card .amt{font-size:27px;font-weight:800;letter-spacing:-.02em}
+.card .amt span{font-size:14px;font-weight:600;color:var(--muted)}
+.card ul{list-style:none;margin-top:14px}
+.card li{font-size:14.5px;color:#3b3830;margin-bottom:7px;padding-left:16px;position:relative}
+.card li:before{content:"";position:absolute;left:2px;top:8px;width:6px;height:6px;border-radius:50%;background:var(--honey)}
+.faq details{border-bottom:1px solid var(--line);padding:15px 0}
+.faq summary{font-size:16.5px;font-weight:650;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:after{content:"›";color:#b3ada0;font-size:20px;transform:rotate(90deg)}
+.faq p{font-size:15px;color:var(--muted);margin-top:10px}
+footer{padding:34px 0 50px;text-align:center;font-size:13px;color:#8d8a80;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section>
+  <span class="eyebrow">Early access</span>
+  <h1>Log a hive inspection with your gloves on.</h1>
+  <p class="lead">Tap once, talk for twenty seconds, keep working. Propolize turns what you said into a clean record for every hive — feeder, queen, last treatment — with no typing and no signal.</p>
+  <a class="cta" href="mailto:lololsiyuan@163.com?subject=Propolize%20early%20access&body=How%20many%20hives%3F%20%0AWhat%20do%20you%20use%20today%3F%20">Get early access</a>
+  <p class="micro">One email when it ships. Nothing else.</p>
+</section>
+
+<section>
+  <h2>You already know the problem.</h2>
+  <ul class="pain">
+    <li>You can't remember which hive got the feeder.</li>
+    <li>Was that queen bought or hatched?</li>
+    <li>When did you last treat for varroa?</li>
+    <li>And the notebook page is smeared with propolis.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><div><h3>Glove on. Tap once.</h3><p>One big button, works through nitrile.</p></div></div>
+    <div class="step"><div class="num">2</div><div><h3>Say it.</h3><p>"Hive 4, feeder on, queen marked blue, treated for mites." No forms.</p></div></div>
+    <div class="step"><div class="num">3</div><div><h3>Walk away.</h3><p>It's filed under Hive 4 automatically, with the date.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>Only three things, done properly.</h2>
+  <div class="feat"><h3>Voice that knows beekeeping words.</h3><p>Brood, varroa, super, nuc, propolized — it won't turn your notes into gibberish.</p></div>
+  <div class="feat"><h3>A timeline per hive.</h3><p>Every inspection, treatment and queen event in one scroll, so you can see a trend instead of rereading a notebook.</p></div>
+  <div class="feat"><h3>Offline, and yours to leave with.</h3><p>Works in the bee yard with no bars. Export everything to CSV any time. Your notes are not hostage.</p></div>
+</section>
+
+<section>
+  <h2>Pricing</h2>
+  <div class="prices">
+    <div class="card"><div class="tier">Free</div><div class="amt">$0</div>
+      <ul><li>Log 2 hives</li><li>Manual entry</li><li>No ads, ever</li></ul></div>
+    <div class="card best"><div class="tier">Pro</div><div class="amt">$29.99 <span>/ year</span></div>
+      <ul><li>Voice logging</li><li>Unlimited hives</li><li>Treatment reminders</li><li>CSV export</li></ul></div>
+  </div>
+  <a class="cta" href="mailto:lololsiyuan@163.com?subject=Propolize%20early%20access" style="margin-top:20px">Get early access</a>
+</section>
+
+<section class="faq">
+  <h2>Questions</h2>
+  <details><summary>Does it work without signal?</summary><p>Yes. Recording and saving are fully offline; sync is optional.</p></details>
+  <details><summary>Do I have to talk?</summary><p>No. Typing and dictation both work — voice is just the fast path.</p></details>
+  <details><summary>Is this a subscription trap?</summary><p>Free tier is free forever. Pro is $29.99/yr, and you can export and leave whenever.</p></details>
+  <details><summary>Why not just paper?</summary><p>Paper is great until the page gets propolized, or you need to know what you did to Hive 4 six weeks ago.</p></details>
+  <details><summary>Who's building it?</summary><p>A developer with 12 years of shipping apps, keeping bees on the side. Independent, not VC-backed.</p></details>
+</section>
+
+<footer>Propolize · hands-free hive records · <a href="mailto:lololsiyuan@163.com" style="color:#8d8a80">lololsiyuan@163.com</a></footer>
+</div>
+</body>
+</html>
