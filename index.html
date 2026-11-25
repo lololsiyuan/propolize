@@ -53,7 +53,7 @@ footer{padding:34px 0 50px;text-align:center;font-size:13px;color:#8d8a80;border
   <span class="eyebrow">Early access</span>
   <h1>Log a hive inspection with your gloves on.</h1>
   <p class="lead">Tap once, talk for twenty seconds, keep working. Propolize turns what you said into a clean record for every hive — feeder, queen, last treatment — with no typing and no signal.</p>
-  <a class="cta" href="mailto:lololsiyuan@163.com?subject=Propolize%20early%20access&body=How%20many%20hives%3F%20%0AWhat%20do%20you%20use%20today%3F%20">Get early access</a>
+  <a class="cta" href="https://tally.so/r/rDoe4R" target="_blank" rel="noopener">Get early access</a>
   <p class="micro">One email when it ships. Nothing else.</p>
 </section>
 
@@ -91,7 +91,7 @@ footer{padding:34px 0 50px;text-align:center;font-size:13px;color:#8d8a80;border
     <div class="card best"><div class="tier">Pro</div><div class="amt">$29.99 <span>/ year</span></div>
       <ul><li>Voice logging</li><li>Unlimited hives</li><li>Treatment reminders</li><li>CSV export</li></ul></div>
   </div>
-  <a class="cta" href="mailto:lololsiyuan@163.com?subject=Propolize%20early%20access" style="margin-top:20px">Get early access</a>
+  <a class="cta" href="https://tally.so/r/rDoe4R" target="_blank" rel="noopener" style="margin-top:20px">Get early access</a>
 </section>
 
 <section class="faq">
@@ -105,5 +105,17 @@ footer{padding:34px 0 50px;text-align:center;font-size:13px;color:#8d8a80;border
 
 <footer>Propolize · hands-free hive records · <a href="mailto:lololsiyuan@163.com" style="color:#8d8a80">lololsiyuan@163.com</a></footer>
 </div>
+<script>
+(function(){
+  var q = location.search.replace(/^\?/, "");
+  if(!q) return;
+  var keep = q.split("&").filter(function(kv){ return /^(utm_|ref|src)/.test(kv); });
+  if(!keep.length) return;
+  var links = document.querySelectorAll('a[href^="https://tally.so/"]');
+  for(var i=0;i<links.length;i++){
+    links[i].href += (links[i].href.indexOf("?")>-1 ? "&" : "?") + keep.join("&");
+  }
+})();
+</script>
 </body>
 </html>
